@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "extract": "formatjs extract 'src/**/*.{ts,tsx,jsx,js}' --ignore='**/*.d.ts' --out-file ./extracted/en.json"
+    "extract": "formatjs extract src/**/*.{ts,tsx,jsx,js} --ignore='**/*.d.ts' --out-file ./extracted/en.json"
   },
   "eslintConfig": {
     "extends": [
