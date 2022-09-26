@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<babeledit_project be_version="4.0.0" version="1.3">
+    <!--
+
+    BabelEdit project file
+    https://www.codeandweb.com/babeledit
+
+    This file contains meta data for all translations, but not the translation texts itself.
+    They are stored in framework-specific message files (.json / .vue / .yaml / .properties)
+
+    -->
+    <preset_collections/>
+    <framework>react-formatjs-extract</framework>
+    <filename>react-intl-demo.babel</filename>
+    <source_root_dir>.</source_root_dir>
+    <folder_node>
+        <name/>
+        <children>
+            <package_node>
+                <name>main</name>
+                <children>
+                    <folder_node>
+                        <name>app</name>
+                        <children>
+                            <concept_node>
+                                <name>learn-react-link</name>
+                                <description>Link on react page</description>
+                                <comment>asdfasdfasdf
+</comment>
+                                <default_text/>
+                                <translations>
+                                    <translation>
+                                        <language>de-DE</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                    <translation>
+                                        <language>en-US</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                    <translation>
+                                        <language>fr-FR</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                </translations>
+                            </concept_node>
+                            <concept_node>
+                                <name>text</name>
+                                <description>Welcome header on app main page</description>
+                                <comment/>
+                                <default_text/>
+                                <translations>
+                                    <translation>
+                                        <language>de-DE</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                    <translation>
+                                        <language>en-US</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                    <translation>
+                                        <language>fr-FR</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                </translations>
+                            </concept_node>
+                        </children>
+                    </folder_node>
+                </children>
+            </package_node>
+        </children>
+    </folder_node>
+    <isTemplateProject>false</isTemplateProject>
+    <languages>
+        <language>
+            <code>de-DE</code>
+        </language>
+        <language>
+            <code>en-US</code>
+        </language>
+        <language>
+            <code>fr-FR</code>
+        </language>
+    </languages>
+    <translation_packages>
+        <translation_package>
+            <name>main</name>
+            <translation_urls>
+                <translation_url>
+                    <path>src/translations/de.json</path>
+                    <language>de-DE</language>
+                </translation_url>
+                <translation_url>
+                    <path>extracted/en.json</path>
+                    <language>en-US</language>
+                </translation_url>
+                <translation_url>
+                    <path>src/translations/fr.json</path>
+                    <language>fr-FR</language>
+                </translation_url>
+            </translation_urls>
+        </translation_package>
+    </translation_packages>
+    <editor_configuration>
+        <save_empty_translations>true</save_empty_translations>
+        <translation_order>alphabetically</translation_order>
+        <copy_templates>
+            <copy_template/>
+            <copy_template/>
+            <copy_template/>
+        </copy_templates>
+        <custom_languages/>
+    </editor_configuration>
+    <primary_language>en-US</primary_language>
+    <configuration>
+        <indent>space2</indent>
+        <format>simple-tree</format>
+    </configuration>
+</babeledit_project>
